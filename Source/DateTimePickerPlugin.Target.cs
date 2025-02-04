@@ -8,9 +8,7 @@ public class DateTimePickerPluginTarget : TargetRules
 	public DateTimePickerPluginTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-#if UE_4_24_OR_LATER
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-#endif
+		DefaultBuildSettings = BuildSettingsVersion.V5;
 		ExtraModuleNames.AddRange( new string[] { "DateTimePickerPlugin" } );
 	}
 }

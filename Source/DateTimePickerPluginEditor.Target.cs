@@ -8,7 +8,7 @@ public class DateTimePickerPluginEditorTarget : TargetRules
 	public DateTimePickerPluginEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V4;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
 		ExtraModuleNames.AddRange( new string[] { "DateTimePickerPlugin" } );
 	}
 }
